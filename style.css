@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#btn{
+    width: 367px;
+    height: 150px;
+    border-radius: 104px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+#ball{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 40px;
+    transition: 0.4s ease-in-out;
+}
+.is-on{
+    transform:translateX(180px);
+    transition: 0.4s ease-in-out;
+}
